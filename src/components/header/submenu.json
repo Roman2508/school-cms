@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_header_submenus",
+  "info": {
+    "displayName": "submenu3",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

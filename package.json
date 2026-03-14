@@ -8,7 +8,6 @@
     "console": "strapi console",
     "deploy": "strapi deploy",
     "dev": "strapi develop",
-    "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
     "strapi": "strapi",
@@ -17,6 +16,7 @@
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.39.0",
+    "@strapi/plugin-documentation": "^5.39.0",
     "@strapi/plugin-users-permissions": "5.39.0",
     "@strapi/strapi": "5.39.0",
     "fs-extra": "^10.0.0",

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_stats_blocks",
+  "info": {
+    "displayName": "Stats block",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "component": "homepage.stats",
+      "repeatable": true,
+      "required": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

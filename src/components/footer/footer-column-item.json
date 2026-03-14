@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_footer_column_items",
+  "info": {
+    "displayName": "Footer column item",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

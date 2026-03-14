@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homepage_news_feeds",
+  "info": {
+    "displayName": "News feed",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "all_link_label": {
+      "type": "string",
+      "required": true
+    },
+    "limit": {
+      "type": "integer",
+      "required": true,
+      "default": 3
+    }
+  },
+  "config": {}
+}

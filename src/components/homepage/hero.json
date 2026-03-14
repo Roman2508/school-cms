@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_homepage_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": false
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "buttons": {
+      "type": "component",
+      "component": "homepage.hero-buttons",
+      "repeatable": true
+    },
+    "stats": {
+      "type": "component",
+      "component": "homepage.stats",
+      "repeatable": true
+    },
+    "bottom_button_text": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "config": {}
+}

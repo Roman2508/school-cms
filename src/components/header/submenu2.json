@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_header_submenu2s",
+  "info": {
+    "displayName": "submenu2",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "submenu": {
+      "type": "component",
+      "component": "header.submenu",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_homepage_contacts",
+  "info": {
+    "displayName": "Contacts",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "contact_persons": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::stuff-member.stuff-member"
+    },
+    "info_title": {
+      "type": "string",
+      "required": true
+    },
+    "info_items": {
+      "type": "component",
+      "component": "homepage.home-info-item",
+      "repeatable": true,
+      "required": true,
+      "min": 1
+    },
+    "map_embed_url": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

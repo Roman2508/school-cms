@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_about_advantages",
+  "info": {
+    "displayName": "About advantages",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

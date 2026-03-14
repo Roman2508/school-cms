@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_accordions",
+  "info": {
+    "displayName": "Accordion",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "multiply_open": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "items": {
+      "type": "component",
+      "component": "shared.accordion-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_footer_footer_contacts",
+  "info": {
+    "displayName": "Footer contacts",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "component": "homepage.home-info-item",
+      "repeatable": true,
+      "required": true,
+      "min": 1
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homepage_events_feeds",
+  "info": {
+    "displayName": "Events feed",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "all_link_label": {
+      "type": "string",
+      "required": true
+    },
+    "limit": {
+      "type": "integer",
+      "required": true,
+      "default": 4
+    }
+  },
+  "config": {}
+}

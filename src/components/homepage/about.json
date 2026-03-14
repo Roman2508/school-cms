@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_homepage_abouts",
+  "info": {
+    "displayName": "About",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "text",
+      "required": true
+    },
+    "advantages": {
+      "type": "component",
+      "component": "homepage.about-advantages",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_title": {
+      "type": "string"
+    },
+    "image_text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

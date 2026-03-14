@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_homepage_hero_buttons",
+  "info": {
+    "displayName": "Hero buttons",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "button_type": {
+      "type": "enumeration",
+      "required": true,
+      "default": "primary",
+      "enum": [
+        "primary",
+        "outline"
+      ]
+    }
+  },
+  "config": {}
+}

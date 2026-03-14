@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stuff_members",
+  "info": {
+    "singularName": "stuff-member",
+    "pluralName": "stuff-members",
+    "displayName": "Stuff member"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "default": "Вчитель",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bio": {
+      "type": "blocks"
+    },
+    "weight": {
+      "type": "integer",
+      "required": true,
+      "default": 1,
+      "unique": false
+    }
+  }
+}
