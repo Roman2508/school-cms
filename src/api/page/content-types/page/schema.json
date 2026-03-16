@@ -30,6 +30,11 @@
         "images"
       ]
     },
+    "parent_page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
     "layout": {
       "type": "enumeration",
       "required": true,

@@ -798,6 +798,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::page.page'> &
       Schema.Attribute.Private;
+    parent_page: Schema.Attribute.Relation<'oneToOne', 'api::page.page'>;
     publishedAt: Schema.Attribute.DateTime;
     reverse_cols_on_mobile: Schema.Attribute.Boolean &
       Schema.Attribute.Required &
