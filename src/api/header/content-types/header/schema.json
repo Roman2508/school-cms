@@ -25,7 +25,7 @@
       "required": false
     },
     "subtitle": {
-      "type": "blocks",
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -44,6 +44,14 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "announcement_bar_text": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "navigation": {
       "type": "component",

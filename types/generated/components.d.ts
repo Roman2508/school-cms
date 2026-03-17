@@ -69,7 +69,7 @@ export interface HeaderSubmenu extends Struct.ComponentSchema {
     icon: 'bulletList';
   };
   attributes: {
-    link: Schema.Attribute.String & Schema.Attribute.Required;
+    link: Schema.Attribute.String;
     text: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
@@ -81,7 +81,7 @@ export interface HeaderSubmenu1 extends Struct.ComponentSchema {
     icon: 'bulletList';
   };
   attributes: {
-    link: Schema.Attribute.String & Schema.Attribute.Required;
+    link: Schema.Attribute.String;
     submenu: Schema.Attribute.Component<'header.submenu2', true>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
@@ -94,7 +94,7 @@ export interface HeaderSubmenu2 extends Struct.ComponentSchema {
     icon: 'bulletList';
   };
   attributes: {
-    link: Schema.Attribute.String & Schema.Attribute.Required;
+    link: Schema.Attribute.String;
     submenu: Schema.Attribute.Component<'header.submenu', true>;
     text: Schema.Attribute.String & Schema.Attribute.Required;
   };
