@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2026-03-16T08:59:22.672Z"
+    "x-generation-date": "2026-03-17T09:36:23.468Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -15541,9 +15541,7 @@
               "shared.rich-text"
             ]
           },
-          "body": {
-            "type": "string"
-          }
+          "body": {}
         }
       },
       "SharedButtonLinkComponent": {
@@ -15584,6 +15582,15 @@
               "left",
               "center",
               "right"
+            ]
+          },
+          "variant": {
+            "type": "string",
+            "enum": [
+              "default",
+              "outline",
+              "link",
+              "secondary"
             ]
           }
         }
@@ -15824,6 +15831,14 @@
           },
           "title": {
             "type": "string"
+          },
+          "align": {
+            "type": "string",
+            "enum": [
+              "left",
+              "center",
+              "right"
+            ]
           },
           "multiply_open": {
             "type": "boolean"

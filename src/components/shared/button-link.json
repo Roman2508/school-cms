@@ -32,6 +32,17 @@
         "center",
         "right"
       ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "required": true,
+      "default": "default",
+      "enum": [
+        "default",
+        "outline",
+        "link",
+        "secondary"
+      ]
     }
   },
   "config": {}

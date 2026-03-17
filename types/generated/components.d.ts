@@ -271,6 +271,9 @@ export interface SharedAccordion extends Struct.ComponentSchema {
     icon: 'bulletList';
   };
   attributes: {
+    align: Schema.Attribute.Enumeration<['left', 'center', 'right']> &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'center'>;
     items: Schema.Attribute.Component<'shared.accordion-item', true>;
     multiply_open: Schema.Attribute.Boolean &
       Schema.Attribute.Required &
@@ -309,6 +312,11 @@ export interface SharedButtonLink extends Struct.ComponentSchema {
       Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<'full'>;
     text: Schema.Attribute.String & Schema.Attribute.Required;
+    variant: Schema.Attribute.Enumeration<
+      ['default', 'outline', 'link', 'secondary']
+    > &
+      Schema.Attribute.Required &
+      Schema.Attribute.DefaultTo<'default'>;
   };
 }
 
@@ -332,7 +340,7 @@ export interface SharedRichText extends Struct.ComponentSchema {
     icon: 'align-justify';
   };
   attributes: {
-    body: Schema.Attribute.RichText;
+    body: Schema.Attribute.Blocks & Schema.Attribute.Required;
   };
 }
 

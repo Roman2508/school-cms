@@ -10,6 +10,16 @@
       "type": "string",
       "required": true
     },
+    "align": {
+      "type": "enumeration",
+      "required": true,
+      "default": "center",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    },
     "multiply_open": {
       "type": "boolean",
       "required": true,
